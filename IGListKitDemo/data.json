@@ -1,0 +1,17 @@
+[
+    {
+        "type":"article",
+        "data":{
+            "list":[{
+                "title":"article title1",
+                "desc":"大家都在读"
+            },{
+                "title":"article title2",
+                "desc":"大家都在读"
+            },{
+                "title":"article title3",
+                "desc":"大家都在读"
+            }]
+        }
+    }
+]

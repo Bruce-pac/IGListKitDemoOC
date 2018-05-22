@@ -1,0 +1,56 @@
+ [
+  {
+  "type":"article",
+  "data":{
+  "list":[{
+          "title":"article title1",
+          "desc":"大家都在读",
+          "image":"localImage.jpg"
+          },{
+          "title":"article title2",
+          "desc":"大家都在读",
+          "image":"localImage.jpg"
+          },{
+          "title":"article title3",
+          "desc":"大家都在读",
+          "image":"localImage.jpg"
+          }]
+  }
+  },
+  {
+  "type":"idea",
+  "data":{
+  "user":{
+  "user_id":1,
+  "avatar":"",
+  "name":"小顾"
+  },
+  "book":{
+  "author":"刘慈欣",
+  "book_name":"三体",
+  "book_cover":"",
+  "book_id":"1"
+  },
+  "comments":[{
+              "from_user":{
+              "user_id":1,
+              "name":"小顾"
+              },
+              "to_user":{
+              "user_id":1,
+              "name":"小顾"
+              },
+              "content":"评论内容"
+              }],
+  "info":{
+  "idea_type":1,
+  "review_star":5,
+  "review_content":"这是本好书，推荐读一读",
+  "createtime":"5月12号 00:10",
+  "favor_num":10,
+  "is_favor":true
+
+  }
+  }
+  }
+  ]
