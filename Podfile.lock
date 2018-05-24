@@ -1,15 +1,15 @@
 PODS:
-  - IGListKit (3.3.0):
-    - IGListKit/Default (= 3.3.0)
-  - IGListKit/Default (3.3.0):
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
     - IGListKit/Diffing
-  - IGListKit/Diffing (3.3.0)
+  - IGListKit/Diffing (3.4.0)
 
 DEPENDENCIES:
   - IGListKit
 
 SPEC CHECKSUMS:
-  IGListKit: 71455d8fa95ff3d8594db667edd41c37db715c01
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
 
 PODFILE CHECKSUM: 79bd9596106f1b7abbfad65755cfdcf2a4f15eb4
 
