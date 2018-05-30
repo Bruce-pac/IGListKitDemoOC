@@ -4,13 +4,16 @@ PODS:
   - IGListKit/Default (3.4.0):
     - IGListKit/Diffing
   - IGListKit/Diffing (3.4.0)
+  - MJExtension (3.0.13)
 
 DEPENDENCIES:
   - IGListKit
+  - MJExtension
 
 SPEC CHECKSUMS:
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
 
-PODFILE CHECKSUM: 79bd9596106f1b7abbfad65755cfdcf2a4f15eb4
+PODFILE CHECKSUM: cee3afcc89f0a59613b1a5dab030e058dadcb9c3
 
 COCOAPODS: 1.3.1

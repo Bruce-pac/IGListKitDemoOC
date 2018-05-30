@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "OneCollectionViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,10 +19,16 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:{
+            [self.navigationController pushViewController:[OneCollectionViewController new] animated:YES];
+        }
+            break;
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+        default:
+            break;
+    }
 }
 
 

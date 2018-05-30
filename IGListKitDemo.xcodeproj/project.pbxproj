@@ -8,19 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		48AF787781767D58C6447313 /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */; };
-		84A0136120B056A800204A8D /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 84A0136020B056A800204A8D /* data1.json */; };
+		84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EE120BC3BDB0068BC6D /* FeedModel.m */; };
+		84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EEF20BC3EF50068BC6D /* JsonTool.m */; };
+		84446EF520BC42320068BC6D /* UserInfoCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EF420BC42320068BC6D /* UserInfoCellModel.m */; };
+		84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EF720BC465C0068BC6D /* ContentSectionController.m */; };
+		84446EFC20BC469F0068BC6D /* ContentCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EFA20BC469F0068BC6D /* ContentCollectionCell.m */; };
+		84446EFD20BC469F0068BC6D /* ContentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446EFB20BC469F0068BC6D /* ContentCollectionCell.xib */; };
+		84A0136120B056A800204A8D /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = 84A0136020B056A800204A8D /* data2.json */; };
+		84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEF020B7008D000A33CB /* OneCollectionViewController.m */; };
+		84A5DEF420B700C3000A33CB /* BaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEF320B700C3000A33CB /* BaseCollectionViewController.m */; };
+		84A5DEF720B705F2000A33CB /* UserInfoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEF620B705F2000A33CB /* UserInfoSectionController.m */; };
+		84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEFA20B70625000A33CB /* UserInfoCell.m */; };
+		84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A5DEFB20B70625000A33CB /* UserInfoCell.xib */; };
 		84D1204320ADC25B00AF1894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1204220ADC25B00AF1894 /* AppDelegate.m */; };
 		84D1204620ADC25B00AF1894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1204520ADC25B00AF1894 /* ViewController.m */; };
 		84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1204720ADC25B00AF1894 /* Main.storyboard */; };
 		84D1204B20ADC25C00AF1894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D1204A20ADC25C00AF1894 /* Assets.xcassets */; };
 		84D1204E20ADC25C00AF1894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1204C20ADC25C00AF1894 /* LaunchScreen.storyboard */; };
 		84D1205120ADC25C00AF1894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1205020ADC25C00AF1894 /* main.m */; };
-		84D1205820ADC85B00AF1894 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D1205720ADC85B00AF1894 /* data.json */; };
+		84D1205820ADC85B00AF1894 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D1205720ADC85B00AF1894 /* data1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A0136020B056A800204A8D /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		84446EE020BC3BDB0068BC6D /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		84446EE120BC3BDB0068BC6D /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
+		84446EEF20BC3EF50068BC6D /* JsonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTool.m; sourceTree = "<group>"; };
+		84446EF020BC3EF50068BC6D /* JsonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTool.h; sourceTree = "<group>"; };
+		84446EF320BC42320068BC6D /* UserInfoCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCellModel.h; sourceTree = "<group>"; };
+		84446EF420BC42320068BC6D /* UserInfoCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCellModel.m; sourceTree = "<group>"; };
+		84446EF620BC465C0068BC6D /* ContentSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentSectionController.h; sourceTree = "<group>"; };
+		84446EF720BC465C0068BC6D /* ContentSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentSectionController.m; sourceTree = "<group>"; };
+		84446EF920BC469F0068BC6D /* ContentCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentCollectionCell.h; sourceTree = "<group>"; };
+		84446EFA20BC469F0068BC6D /* ContentCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionCell.m; sourceTree = "<group>"; };
+		84446EFB20BC469F0068BC6D /* ContentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCollectionCell.xib; sourceTree = "<group>"; };
+		84A0136020B056A800204A8D /* data2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		84A5DEEF20B7008D000A33CB /* OneCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneCollectionViewController.h; sourceTree = "<group>"; };
+		84A5DEF020B7008D000A33CB /* OneCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneCollectionViewController.m; sourceTree = "<group>"; };
+		84A5DEF220B700C3000A33CB /* BaseCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
+		84A5DEF320B700C3000A33CB /* BaseCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+		84A5DEF520B705F2000A33CB /* UserInfoSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoSectionController.h; sourceTree = "<group>"; };
+		84A5DEF620B705F2000A33CB /* UserInfoSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoSectionController.m; sourceTree = "<group>"; };
+		84A5DEF920B70625000A33CB /* UserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
+		84A5DEFA20B70625000A33CB /* UserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		84A5DEFB20B70625000A33CB /* UserInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
 		84D1203E20ADC25B00AF1894 /* IGListKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D1204120ADC25B00AF1894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D1204220ADC25B00AF1894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,7 +62,7 @@
 		84D1204D20ADC25C00AF1894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D1204F20ADC25C00AF1894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D1205020ADC25C00AF1894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84D1205720ADC85B00AF1894 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		84D1205720ADC85B00AF1894 /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
 		8D2F230AA8CAD5D5BCCA81A0 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E7F92F691F6620D0D1F62EE6 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +96,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		84446EDF20BC38EC0068BC6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84446EE020BC3BDB0068BC6D /* FeedModel.h */,
+				84446EE120BC3BDB0068BC6D /* FeedModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84446EEE20BC3EF50068BC6D /* JsonTool */ = {
+			isa = PBXGroup;
+			children = (
+				84446EEF20BC3EF50068BC6D /* JsonTool.m */,
+				84446EF020BC3EF50068BC6D /* JsonTool.h */,
+			);
+			path = JsonTool;
+			sourceTree = "<group>";
+		};
+		84446EF220BC42160068BC6D /* CellModels */ = {
+			isa = PBXGroup;
+			children = (
+				84446EF320BC42320068BC6D /* UserInfoCellModel.h */,
+				84446EF420BC42320068BC6D /* UserInfoCellModel.m */,
+			);
+			path = CellModels;
+			sourceTree = "<group>";
+		};
+		84A5DEEA20B6FF54000A33CB /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A5DEF220B700C3000A33CB /* BaseCollectionViewController.h */,
+				84A5DEF320B700C3000A33CB /* BaseCollectionViewController.m */,
+				84A5DEEF20B7008D000A33CB /* OneCollectionViewController.h */,
+				84A5DEF020B7008D000A33CB /* OneCollectionViewController.m */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		84A5DEEB20B6FF78000A33CB /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				84A5DEF520B705F2000A33CB /* UserInfoSectionController.h */,
+				84A5DEF620B705F2000A33CB /* UserInfoSectionController.m */,
+				84446EF620BC465C0068BC6D /* ContentSectionController.h */,
+				84446EF720BC465C0068BC6D /* ContentSectionController.m */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		84A5DEF820B705F6000A33CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A5DEF920B70625000A33CB /* UserInfoCell.h */,
+				84A5DEFA20B70625000A33CB /* UserInfoCell.m */,
+				84A5DEFB20B70625000A33CB /* UserInfoCell.xib */,
+				84446EF920BC469F0068BC6D /* ContentCollectionCell.h */,
+				84446EFA20BC469F0068BC6D /* ContentCollectionCell.m */,
+				84446EFB20BC469F0068BC6D /* ContentCollectionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		84D1203520ADC25B00AF1894 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +179,12 @@
 		84D1204020ADC25B00AF1894 /* IGListKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84446EEE20BC3EF50068BC6D /* JsonTool */,
+				84446EDF20BC38EC0068BC6D /* Models */,
+				84446EF220BC42160068BC6D /* CellModels */,
+				84A5DEF820B705F6000A33CB /* Views */,
+				84A5DEEB20B6FF78000A33CB /* SectionController */,
+				84A5DEEA20B6FF54000A33CB /* CollectionViewController */,
 				84D1204120ADC25B00AF1894 /* AppDelegate.h */,
 				84D1204220ADC25B00AF1894 /* AppDelegate.m */,
 				84D1204420ADC25B00AF1894 /* ViewController.h */,
@@ -95,8 +194,8 @@
 				84D1204C20ADC25C00AF1894 /* LaunchScreen.storyboard */,
 				84D1204F20ADC25C00AF1894 /* Info.plist */,
 				84D1205020ADC25C00AF1894 /* main.m */,
-				84D1205720ADC85B00AF1894 /* data.json */,
-				84A0136020B056A800204A8D /* data1.json */,
+				84D1205720ADC85B00AF1894 /* data1.json */,
+				84A0136020B056A800204A8D /* data2.json */,
 			);
 			path = IGListKitDemo;
 			sourceTree = "<group>";
@@ -163,9 +262,11 @@
 			files = (
 				84D1204E20ADC25C00AF1894 /* LaunchScreen.storyboard in Resources */,
 				84D1204B20ADC25C00AF1894 /* Assets.xcassets in Resources */,
+				84446EFD20BC469F0068BC6D /* ContentCollectionCell.xib in Resources */,
+				84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */,
 				84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */,
-				84A0136120B056A800204A8D /* data1.json in Resources */,
-				84D1205820ADC85B00AF1894 /* data.json in Resources */,
+				84A0136120B056A800204A8D /* data2.json in Resources */,
+				84D1205820ADC85B00AF1894 /* data1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */,
 				84D1204620ADC25B00AF1894 /* ViewController.m in Sources */,
+				84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */,
+				84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */,
+				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
+				84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */,
+				84A5DEF720B705F2000A33CB /* UserInfoSectionController.m in Sources */,
+				84446EF520BC42320068BC6D /* UserInfoCellModel.m in Sources */,
 				84D1205120ADC25C00AF1894 /* main.m in Sources */,
+				84446EFC20BC469F0068BC6D /* ContentCollectionCell.m in Sources */,
+				84A5DEF420B700C3000A33CB /* BaseCollectionViewController.m in Sources */,
 				84D1204320ADC25B00AF1894 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
