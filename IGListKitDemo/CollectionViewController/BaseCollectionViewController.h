@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <IGListKit.h>
+#import <MJExtension.h>
 #import "JsonTool.h"
 
 @interface BaseCollectionViewController : UIViewController<IGListAdapterDataSource>

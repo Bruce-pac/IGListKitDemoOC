@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "OneCollectionViewController.h"
+#import "SecondCollectionViewController.h"
 @interface ViewController ()
 
 @end
@@ -25,7 +26,9 @@
             [self.navigationController pushViewController:[OneCollectionViewController new] animated:YES];
         }
             break;
-
+        case 1:{
+            [self.navigationController pushViewController:[SecondCollectionViewController new] animated:YES];
+        }
         default:
             break;
     }

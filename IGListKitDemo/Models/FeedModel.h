@@ -13,4 +13,5 @@
 @property (nonatomic,copy) NSString *avatar;
 @property (nonatomic,copy) NSString *userName;
 @property (nonatomic,copy) NSString *content;
+@property (nonatomic,copy) NSArray<NSString *> *images;
 @end

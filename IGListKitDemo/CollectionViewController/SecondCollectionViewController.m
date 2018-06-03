@@ -1,25 +1,26 @@
 //
-//  OneCollectionViewController.m
+//  SecondCollectionViewController.m
 //  IGListKitDemo
 //
-//  Created by gxy on 2018/5/24.
+//  Created by gxy on 2018/5/30.
 //  Copyright © 2018年 gxy. All rights reserved.
 //
 
-#import "OneCollectionViewController.h"
+#import "SecondCollectionViewController.h"
+#import "FeedModel.h"
 #import "UserInfoSectionController.h"
 #import "ContentSectionController.h"
-#import "FeedModel.h"
+#import "ImageSectionController.h"
 
-@interface OneCollectionViewController ()
+@interface SecondCollectionViewController ()
 
 @end
 
-@implementation OneCollectionViewController
+@implementation SecondCollectionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *json = [JsonTool arrayWithJson:@"data1"];
+    NSArray *json = [JsonTool arrayWithJson:@"data2"];
     [self.objects addObjectsFromArray:[FeedModel mj_objectArrayWithKeyValuesArray:json]];
     self.adapter = [[IGListAdapter alloc] initWithUpdater:[IGListAdapterUpdater new] viewController:self];
     self.adapter.dataSource = self;
@@ -28,7 +29,7 @@
 }
 
 -(IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object{
-    IGListStackedSectionController *stack = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[UserInfoSectionController new],[ContentSectionController new]]];
+    IGListStackedSectionController *stack = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[UserInfoSectionController new],[ContentSectionController new],[ImageSectionController new]]];
     stack.inset = UIEdgeInsetsMake(5, 0, 0, 0);
     return stack;
 }
@@ -42,4 +43,5 @@
     [self.objects removeObjectAtIndex:section];
     [self.adapter performUpdatesAnimated:YES completion:nil];
 }
+
 @end

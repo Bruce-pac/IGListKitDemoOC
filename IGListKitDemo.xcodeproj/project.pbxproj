@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48AF787781767D58C6447313 /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */; };
+		8437161520C3902E00AC5BDF /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 8437161420C3902E00AC5BDF /* data3.json */; };
 		84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EE120BC3BDB0068BC6D /* FeedModel.m */; };
 		84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EEF20BC3EF50068BC6D /* JsonTool.m */; };
 		84446EF520BC42320068BC6D /* UserInfoCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EF420BC42320068BC6D /* UserInfoCellModel.m */; };
@@ -27,10 +28,20 @@
 		84D1204E20ADC25C00AF1894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1204C20ADC25C00AF1894 /* LaunchScreen.storyboard */; };
 		84D1205120ADC25C00AF1894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1205020ADC25C00AF1894 /* main.m */; };
 		84D1205820ADC85B00AF1894 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D1205720ADC85B00AF1894 /* data1.json */; };
+		84E1099D20BEE7EF00CB590E /* SecondCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1099C20BEE7EF00CB590E /* SecondCollectionViewController.m */; };
+		84E109A120BEE9A000CB590E /* ImagesCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1099F20BEE9A000CB590E /* ImagesCollectionCell.m */; };
+		84E109A220BEE9A000CB590E /* ImagesCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E109A020BEE9A000CB590E /* ImagesCollectionCell.xib */; };
+		84E109A620BEEA5C00CB590E /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109A420BEEA5C00CB590E /* ImageCell.m */; };
+		84E109A720BEEA5C00CB590E /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E109A520BEEA5C00CB590E /* ImageCell.xib */; };
+		84E109AA20BEEC6000CB590E /* ImagesCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109A920BEEC6000CB590E /* ImagesCollectionCellModel.m */; };
+		84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109AC20BEED4B00CB590E /* UIImage+Extension.m */; };
+		84E109B520BEED4C00CB590E /* NSArray+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109B020BEED4B00CB590E /* NSArray+FP.m */; };
+		84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109B720BEF00C00CB590E /* ImageSectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437161420C3902E00AC5BDF /* data3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
 		84446EE020BC3BDB0068BC6D /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
 		84446EE120BC3BDB0068BC6D /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
 		84446EEF20BC3EF50068BC6D /* JsonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTool.m; sourceTree = "<group>"; };
@@ -63,6 +74,22 @@
 		84D1204F20ADC25C00AF1894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D1205020ADC25C00AF1894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84D1205720ADC85B00AF1894 /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		84E1099B20BEE7EF00CB590E /* SecondCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewController.h; sourceTree = "<group>"; };
+		84E1099C20BEE7EF00CB590E /* SecondCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewController.m; sourceTree = "<group>"; };
+		84E1099E20BEE9A000CB590E /* ImagesCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesCollectionCell.h; sourceTree = "<group>"; };
+		84E1099F20BEE9A000CB590E /* ImagesCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesCollectionCell.m; sourceTree = "<group>"; };
+		84E109A020BEE9A000CB590E /* ImagesCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCollectionCell.xib; sourceTree = "<group>"; };
+		84E109A320BEEA5C00CB590E /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		84E109A420BEEA5C00CB590E /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		84E109A520BEEA5C00CB590E /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		84E109A820BEEC6000CB590E /* ImagesCollectionCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesCollectionCellModel.h; sourceTree = "<group>"; };
+		84E109A920BEEC6000CB590E /* ImagesCollectionCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesCollectionCellModel.m; sourceTree = "<group>"; };
+		84E109AC20BEED4B00CB590E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		84E109AD20BEED4B00CB590E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		84E109B020BEED4B00CB590E /* NSArray+FP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FP.m"; sourceTree = "<group>"; };
+		84E109B120BEED4B00CB590E /* NSArray+FP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FP.h"; sourceTree = "<group>"; };
+		84E109B620BEF00C00CB590E /* ImageSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSectionController.h; sourceTree = "<group>"; };
+		84E109B720BEF00C00CB590E /* ImageSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSectionController.m; sourceTree = "<group>"; };
 		8D2F230AA8CAD5D5BCCA81A0 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E7F92F691F6620D0D1F62EE6 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +135,8 @@
 		84446EEE20BC3EF50068BC6D /* JsonTool */ = {
 			isa = PBXGroup;
 			children = (
-				84446EEF20BC3EF50068BC6D /* JsonTool.m */,
 				84446EF020BC3EF50068BC6D /* JsonTool.h */,
+				84446EEF20BC3EF50068BC6D /* JsonTool.m */,
 			);
 			path = JsonTool;
 			sourceTree = "<group>";
@@ -119,6 +146,8 @@
 			children = (
 				84446EF320BC42320068BC6D /* UserInfoCellModel.h */,
 				84446EF420BC42320068BC6D /* UserInfoCellModel.m */,
+				84E109A820BEEC6000CB590E /* ImagesCollectionCellModel.h */,
+				84E109A920BEEC6000CB590E /* ImagesCollectionCellModel.m */,
 			);
 			path = CellModels;
 			sourceTree = "<group>";
@@ -130,6 +159,8 @@
 				84A5DEF320B700C3000A33CB /* BaseCollectionViewController.m */,
 				84A5DEEF20B7008D000A33CB /* OneCollectionViewController.h */,
 				84A5DEF020B7008D000A33CB /* OneCollectionViewController.m */,
+				84E1099B20BEE7EF00CB590E /* SecondCollectionViewController.h */,
+				84E1099C20BEE7EF00CB590E /* SecondCollectionViewController.m */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -141,6 +172,8 @@
 				84A5DEF620B705F2000A33CB /* UserInfoSectionController.m */,
 				84446EF620BC465C0068BC6D /* ContentSectionController.h */,
 				84446EF720BC465C0068BC6D /* ContentSectionController.m */,
+				84E109B620BEF00C00CB590E /* ImageSectionController.h */,
+				84E109B720BEF00C00CB590E /* ImageSectionController.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -154,6 +187,12 @@
 				84446EF920BC469F0068BC6D /* ContentCollectionCell.h */,
 				84446EFA20BC469F0068BC6D /* ContentCollectionCell.m */,
 				84446EFB20BC469F0068BC6D /* ContentCollectionCell.xib */,
+				84E1099E20BEE9A000CB590E /* ImagesCollectionCell.h */,
+				84E1099F20BEE9A000CB590E /* ImagesCollectionCell.m */,
+				84E109A020BEE9A000CB590E /* ImagesCollectionCell.xib */,
+				84E109A320BEEA5C00CB590E /* ImageCell.h */,
+				84E109A420BEEA5C00CB590E /* ImageCell.m */,
+				84E109A520BEEA5C00CB590E /* ImageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +218,8 @@
 		84D1204020ADC25B00AF1894 /* IGListKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84E109AE20BEED4B00CB590E /* NSArray+FP */,
+				84E109AB20BEED4B00CB590E /* UIImage+Extension */,
 				84446EEE20BC3EF50068BC6D /* JsonTool */,
 				84446EDF20BC38EC0068BC6D /* Models */,
 				84446EF220BC42160068BC6D /* CellModels */,
@@ -196,8 +237,27 @@
 				84D1205020ADC25C00AF1894 /* main.m */,
 				84D1205720ADC85B00AF1894 /* data1.json */,
 				84A0136020B056A800204A8D /* data2.json */,
+				8437161420C3902E00AC5BDF /* data3.json */,
 			);
 			path = IGListKitDemo;
+			sourceTree = "<group>";
+		};
+		84E109AB20BEED4B00CB590E /* UIImage+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84E109AD20BEED4B00CB590E /* UIImage+Extension.h */,
+				84E109AC20BEED4B00CB590E /* UIImage+Extension.m */,
+			);
+			path = "UIImage+Extension";
+			sourceTree = "<group>";
+		};
+		84E109AE20BEED4B00CB590E /* NSArray+FP */ = {
+			isa = PBXGroup;
+			children = (
+				84E109B120BEED4B00CB590E /* NSArray+FP.h */,
+				84E109B020BEED4B00CB590E /* NSArray+FP.m */,
+			);
+			path = "NSArray+FP";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +323,11 @@
 				84D1204E20ADC25C00AF1894 /* LaunchScreen.storyboard in Resources */,
 				84D1204B20ADC25C00AF1894 /* Assets.xcassets in Resources */,
 				84446EFD20BC469F0068BC6D /* ContentCollectionCell.xib in Resources */,
+				8437161520C3902E00AC5BDF /* data3.json in Resources */,
+				84E109A220BEE9A000CB590E /* ImagesCollectionCell.xib in Resources */,
 				84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */,
 				84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */,
+				84E109A720BEEA5C00CB590E /* ImageCell.xib in Resources */,
 				84A0136120B056A800204A8D /* data2.json in Resources */,
 				84D1205820ADC85B00AF1894 /* data1.json in Resources */,
 			);
@@ -329,14 +392,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */,
+				84E109A620BEEA5C00CB590E /* ImageCell.m in Sources */,
+				84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */,
 				84D1204620ADC25B00AF1894 /* ViewController.m in Sources */,
 				84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */,
 				84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */,
 				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
+				84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */,
+				84E109A120BEE9A000CB590E /* ImagesCollectionCell.m in Sources */,
+				84E1099D20BEE7EF00CB590E /* SecondCollectionViewController.m in Sources */,
 				84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */,
+				84E109AA20BEEC6000CB590E /* ImagesCollectionCellModel.m in Sources */,
 				84A5DEF720B705F2000A33CB /* UserInfoSectionController.m in Sources */,
 				84446EF520BC42320068BC6D /* UserInfoCellModel.m in Sources */,
 				84D1205120ADC25C00AF1894 /* main.m in Sources */,
+				84E109B520BEED4C00CB590E /* NSArray+FP.m in Sources */,
 				84446EFC20BC469F0068BC6D /* ContentCollectionCell.m in Sources */,
 				84A5DEF420B700C3000A33CB /* BaseCollectionViewController.m in Sources */,
 				84D1204320ADC25B00AF1894 /* AppDelegate.m in Sources */,
