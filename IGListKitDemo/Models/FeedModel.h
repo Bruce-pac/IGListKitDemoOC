@@ -14,4 +14,6 @@
 @property (nonatomic,copy) NSString *userName;
 @property (nonatomic,copy) NSString *content;
 @property (nonatomic,copy) NSArray<NSString *> *images;
+@property (nonatomic,assign) BOOL isFavor;
+@property (nonatomic,copy) NSNumber *favor;
 @end

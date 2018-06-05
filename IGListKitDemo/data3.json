@@ -4,6 +4,7 @@
   "userName":"Bruce",
   "content":"this is a content",
   "images":["red","blue"],
+  "isFavor":true,
   "favor":10
   },
   {
@@ -11,24 +12,28 @@
   "userName":"Bruce",
   "content":"11",
   "images":[],
+  "isFavor":false,
   "favor":10
   },{
   "avatar":"http://tse4.mm.bing.net/th?id=OIP.pYkSDAPsbJdgrdN_Oub2QgAAAA&w=196&h=196&c=7&o=5&dpr=2&pid=1.7",
   "userName":"Bruce",
   "content":"this is a long long long long long long long long long long long long long long long content",
   "images":["red","blue","yellow"],
+  "isFavor":false,
   "favor":10
   },{
   "avatar":"http://tse4.mm.bing.net/th?id=OIP.pYkSDAPsbJdgrdN_Oub2QgAAAA&w=196&h=196&c=7&o=5&dpr=2&pid=1.7",
   "userName":"Bruce",
   "content":"11",
   "images":["red","blue","yellow","green"],
+  "isFavor":true,
   "favor":10
   },{
   "avatar":"http://tse4.mm.bing.net/th?id=OIP.pYkSDAPsbJdgrdN_Oub2QgAAAA&w=196&h=196&c=7&o=5&dpr=2&pid=1.7",
   "userName":"Bruce",
   "content":null,
   "images":["red"],
+  "isFavor":true,
   "favor":10
   }
   ]

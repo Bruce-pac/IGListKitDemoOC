@@ -1,22 +1,22 @@
 //
-//  OneCollectionViewController.m
+//  ThirdViewController.m
 //  IGListKitDemo
 //
-//  Created by gxy on 2018/5/24.
+//  Created by gxy on 2018/6/3.
 //  Copyright © 2018年 gxy. All rights reserved.
 //
 
-#import "OneCollectionViewController.h"
+#import "ThirdViewController.h"
 
-@interface OneCollectionViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation OneCollectionViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *json = [JsonTool arrayWithJson:@"data1"];
+    NSArray *json = [JsonTool arrayWithJson:@"data3"];
     [self.objects addObjectsFromArray:[FeedModel mj_objectArrayWithKeyValuesArray:json]];
     self.adapter = [[IGListAdapter alloc] initWithUpdater:[IGListAdapterUpdater new] viewController:self];
     self.adapter.dataSource = self;
@@ -25,7 +25,7 @@
 }
 
 -(IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object{
-    IGListStackedSectionController *stack = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[UserInfoSectionController new],[ContentSectionController new]]];
+    IGListStackedSectionController *stack = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[UserInfoSectionController new],[ContentSectionController new],[ImageSectionController new],[FavorSectionController new]]];
     stack.inset = UIEdgeInsetsMake(5, 0, 0, 0);
     return stack;
 }
@@ -39,4 +39,6 @@
     [self.objects removeObjectAtIndex:section];
     [self.adapter performUpdatesAnimated:YES completion:nil];
 }
+
+
 @end

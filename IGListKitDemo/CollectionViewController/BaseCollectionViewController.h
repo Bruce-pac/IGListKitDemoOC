@@ -10,6 +10,11 @@
 #import <IGListKit.h>
 #import <MJExtension.h>
 #import "JsonTool.h"
+#import "UserInfoSectionController.h"
+#import "ContentSectionController.h"
+#import "ImageSectionController.h"
+#import "FavorSectionController.h"
+#import "FeedModel.h"
 
 @interface BaseCollectionViewController : UIViewController<IGListAdapterDataSource>
 @property(nonatomic,strong) UICollectionView *collectionView;

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		48AF787781767D58C6447313 /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */; };
 		8437161520C3902E00AC5BDF /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 8437161420C3902E00AC5BDF /* data3.json */; };
+		8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161720C4364300AC5BDF /* ThirdViewController.m */; };
+		8437161B20C4379B00AC5BDF /* FavorSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161A20C4379B00AC5BDF /* FavorSectionController.m */; };
+		8437161F20C437B500AC5BDF /* FavorCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161D20C437B500AC5BDF /* FavorCollectionCell.m */; };
+		8437162020C437B500AC5BDF /* FavorCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8437161E20C437B500AC5BDF /* FavorCollectionCell.xib */; };
+		8437162320C4390300AC5BDF /* FavorCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437162220C4390300AC5BDF /* FavorCollectionCellModel.m */; };
 		84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EE120BC3BDB0068BC6D /* FeedModel.m */; };
 		84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EEF20BC3EF50068BC6D /* JsonTool.m */; };
 		84446EF520BC42320068BC6D /* UserInfoCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446EF420BC42320068BC6D /* UserInfoCellModel.m */; };
@@ -42,6 +47,15 @@
 /* Begin PBXFileReference section */
 		47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8437161420C3902E00AC5BDF /* data3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
+		8437161620C4364300AC5BDF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8437161720C4364300AC5BDF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8437161920C4379B00AC5BDF /* FavorSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavorSectionController.h; sourceTree = "<group>"; };
+		8437161A20C4379B00AC5BDF /* FavorSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavorSectionController.m; sourceTree = "<group>"; };
+		8437161C20C437B500AC5BDF /* FavorCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavorCollectionCell.h; sourceTree = "<group>"; };
+		8437161D20C437B500AC5BDF /* FavorCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavorCollectionCell.m; sourceTree = "<group>"; };
+		8437161E20C437B500AC5BDF /* FavorCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavorCollectionCell.xib; sourceTree = "<group>"; };
+		8437162120C4390300AC5BDF /* FavorCollectionCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavorCollectionCellModel.h; sourceTree = "<group>"; };
+		8437162220C4390300AC5BDF /* FavorCollectionCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavorCollectionCellModel.m; sourceTree = "<group>"; };
 		84446EE020BC3BDB0068BC6D /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
 		84446EE120BC3BDB0068BC6D /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
 		84446EEF20BC3EF50068BC6D /* JsonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTool.m; sourceTree = "<group>"; };
@@ -148,6 +162,8 @@
 				84446EF420BC42320068BC6D /* UserInfoCellModel.m */,
 				84E109A820BEEC6000CB590E /* ImagesCollectionCellModel.h */,
 				84E109A920BEEC6000CB590E /* ImagesCollectionCellModel.m */,
+				8437162120C4390300AC5BDF /* FavorCollectionCellModel.h */,
+				8437162220C4390300AC5BDF /* FavorCollectionCellModel.m */,
 			);
 			path = CellModels;
 			sourceTree = "<group>";
@@ -161,6 +177,8 @@
 				84A5DEF020B7008D000A33CB /* OneCollectionViewController.m */,
 				84E1099B20BEE7EF00CB590E /* SecondCollectionViewController.h */,
 				84E1099C20BEE7EF00CB590E /* SecondCollectionViewController.m */,
+				8437161620C4364300AC5BDF /* ThirdViewController.h */,
+				8437161720C4364300AC5BDF /* ThirdViewController.m */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -174,6 +192,8 @@
 				84446EF720BC465C0068BC6D /* ContentSectionController.m */,
 				84E109B620BEF00C00CB590E /* ImageSectionController.h */,
 				84E109B720BEF00C00CB590E /* ImageSectionController.m */,
+				8437161920C4379B00AC5BDF /* FavorSectionController.h */,
+				8437161A20C4379B00AC5BDF /* FavorSectionController.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -193,6 +213,9 @@
 				84E109A320BEEA5C00CB590E /* ImageCell.h */,
 				84E109A420BEEA5C00CB590E /* ImageCell.m */,
 				84E109A520BEEA5C00CB590E /* ImageCell.xib */,
+				8437161C20C437B500AC5BDF /* FavorCollectionCell.h */,
+				8437161D20C437B500AC5BDF /* FavorCollectionCell.m */,
+				8437161E20C437B500AC5BDF /* FavorCollectionCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +347,7 @@
 				84D1204B20ADC25C00AF1894 /* Assets.xcassets in Resources */,
 				84446EFD20BC469F0068BC6D /* ContentCollectionCell.xib in Resources */,
 				8437161520C3902E00AC5BDF /* data3.json in Resources */,
+				8437162020C437B500AC5BDF /* FavorCollectionCell.xib in Resources */,
 				84E109A220BEE9A000CB590E /* ImagesCollectionCell.xib in Resources */,
 				84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */,
 				84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */,
@@ -391,14 +415,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8437162320C4390300AC5BDF /* FavorCollectionCellModel.m in Sources */,
 				84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */,
 				84E109A620BEEA5C00CB590E /* ImageCell.m in Sources */,
 				84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */,
 				84D1204620ADC25B00AF1894 /* ViewController.m in Sources */,
 				84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */,
 				84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */,
+				8437161B20C4379B00AC5BDF /* FavorSectionController.m in Sources */,
+				8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */,
 				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
 				84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */,
+				8437161F20C437B500AC5BDF /* FavorCollectionCell.m in Sources */,
 				84E109A120BEE9A000CB590E /* ImagesCollectionCell.m in Sources */,
 				84E1099D20BEE7EF00CB590E /* SecondCollectionViewController.m in Sources */,
 				84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */,
