@@ -10,6 +10,7 @@
 #import "OneCollectionViewController.h"
 #import "SecondCollectionViewController.h"
 #import "ThirdViewController.h"
+#import "ForthViewController.h"
 @interface ViewController ()
 
 @end
@@ -33,6 +34,9 @@
             break;
         case 2:
             [self.navigationController pushViewController:[ThirdViewController new] animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:[ForthViewController new] animated:YES];
         default:
             break;
     }

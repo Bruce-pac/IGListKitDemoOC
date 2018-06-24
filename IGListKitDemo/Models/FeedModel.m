@@ -10,6 +10,13 @@
 #import <MJExtension.h>
 
 @implementation FeedModel
+
++(NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"comments":[Comment class]
+             };
+}
+
 -(id<NSObject>)diffIdentifier{
     return self;
 }

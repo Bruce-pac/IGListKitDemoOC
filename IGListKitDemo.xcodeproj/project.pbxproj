@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		48AF787781767D58C6447313 /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */; };
+		8407BB6A20C8271400AB6C0C /* data4.json in Resources */ = {isa = PBXBuildFile; fileRef = 8407BB6920C8271400AB6C0C /* data4.json */; };
+		8407BB6D20C828A800AB6C0C /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB6C20C828A800AB6C0C /* Comment.m */; };
+		8407BB7020C82AA700AB6C0C /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB6F20C82AA700AB6C0C /* ForthViewController.m */; };
+		8407BB7320C82AEE00AB6C0C /* FeedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB7220C82AEE00AB6C0C /* FeedSectionController.m */; };
+		8407BB7720C8308700AB6C0C /* CommentCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB7520C8308700AB6C0C /* CommentCollectionCell.m */; };
+		8407BB7820C8308700AB6C0C /* CommentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */; };
+		8407BB7B20C8334F00AB6C0C /* CommentCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB7A20C8334F00AB6C0C /* CommentCollectionCellModel.m */; };
 		8437161520C3902E00AC5BDF /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 8437161420C3902E00AC5BDF /* data3.json */; };
 		8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161720C4364300AC5BDF /* ThirdViewController.m */; };
 		8437161B20C4379B00AC5BDF /* FavorSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161A20C4379B00AC5BDF /* FavorSectionController.m */; };
@@ -26,6 +33,7 @@
 		84A5DEF720B705F2000A33CB /* UserInfoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEF620B705F2000A33CB /* UserInfoSectionController.m */; };
 		84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5DEFA20B70625000A33CB /* UserInfoCell.m */; };
 		84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A5DEFB20B70625000A33CB /* UserInfoCell.xib */; };
+		84BB8DCC20C6E61C00A07B47 /* CommentSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8DCB20C6E61C00A07B47 /* CommentSectionController.m */; };
 		84D1204320ADC25B00AF1894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1204220ADC25B00AF1894 /* AppDelegate.m */; };
 		84D1204620ADC25B00AF1894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1204520ADC25B00AF1894 /* ViewController.m */; };
 		84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1204720ADC25B00AF1894 /* Main.storyboard */; };
@@ -46,6 +54,18 @@
 
 /* Begin PBXFileReference section */
 		47408D0E5DA74955BA895E4B /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407BB6920C8271400AB6C0C /* data4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data4.json; sourceTree = "<group>"; };
+		8407BB6B20C828A800AB6C0C /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		8407BB6C20C828A800AB6C0C /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		8407BB6E20C82AA700AB6C0C /* ForthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		8407BB6F20C82AA700AB6C0C /* ForthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		8407BB7120C82AEE00AB6C0C /* FeedSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedSectionController.h; sourceTree = "<group>"; };
+		8407BB7220C82AEE00AB6C0C /* FeedSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedSectionController.m; sourceTree = "<group>"; };
+		8407BB7420C8308700AB6C0C /* CommentCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentCollectionCell.h; sourceTree = "<group>"; };
+		8407BB7520C8308700AB6C0C /* CommentCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentCollectionCell.m; sourceTree = "<group>"; };
+		8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCollectionCell.xib; sourceTree = "<group>"; };
+		8407BB7920C8334F00AB6C0C /* CommentCollectionCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentCollectionCellModel.h; sourceTree = "<group>"; };
+		8407BB7A20C8334F00AB6C0C /* CommentCollectionCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentCollectionCellModel.m; sourceTree = "<group>"; };
 		8437161420C3902E00AC5BDF /* data3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
 		8437161620C4364300AC5BDF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		8437161720C4364300AC5BDF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
@@ -77,6 +97,8 @@
 		84A5DEF920B70625000A33CB /* UserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
 		84A5DEFA20B70625000A33CB /* UserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
 		84A5DEFB20B70625000A33CB /* UserInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
+		84BB8DCA20C6E61C00A07B47 /* CommentSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSectionController.h; sourceTree = "<group>"; };
+		84BB8DCB20C6E61C00A07B47 /* CommentSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSectionController.m; sourceTree = "<group>"; };
 		84D1203E20ADC25B00AF1894 /* IGListKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D1204120ADC25B00AF1894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D1204220ADC25B00AF1894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +164,8 @@
 			children = (
 				84446EE020BC3BDB0068BC6D /* FeedModel.h */,
 				84446EE120BC3BDB0068BC6D /* FeedModel.m */,
+				8407BB6B20C828A800AB6C0C /* Comment.h */,
+				8407BB6C20C828A800AB6C0C /* Comment.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +188,8 @@
 				84E109A920BEEC6000CB590E /* ImagesCollectionCellModel.m */,
 				8437162120C4390300AC5BDF /* FavorCollectionCellModel.h */,
 				8437162220C4390300AC5BDF /* FavorCollectionCellModel.m */,
+				8407BB7920C8334F00AB6C0C /* CommentCollectionCellModel.h */,
+				8407BB7A20C8334F00AB6C0C /* CommentCollectionCellModel.m */,
 			);
 			path = CellModels;
 			sourceTree = "<group>";
@@ -179,6 +205,8 @@
 				84E1099C20BEE7EF00CB590E /* SecondCollectionViewController.m */,
 				8437161620C4364300AC5BDF /* ThirdViewController.h */,
 				8437161720C4364300AC5BDF /* ThirdViewController.m */,
+				8407BB6E20C82AA700AB6C0C /* ForthViewController.h */,
+				8407BB6F20C82AA700AB6C0C /* ForthViewController.m */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -194,6 +222,10 @@
 				84E109B720BEF00C00CB590E /* ImageSectionController.m */,
 				8437161920C4379B00AC5BDF /* FavorSectionController.h */,
 				8437161A20C4379B00AC5BDF /* FavorSectionController.m */,
+				84BB8DCA20C6E61C00A07B47 /* CommentSectionController.h */,
+				84BB8DCB20C6E61C00A07B47 /* CommentSectionController.m */,
+				8407BB7120C82AEE00AB6C0C /* FeedSectionController.h */,
+				8407BB7220C82AEE00AB6C0C /* FeedSectionController.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -216,6 +248,9 @@
 				8437161C20C437B500AC5BDF /* FavorCollectionCell.h */,
 				8437161D20C437B500AC5BDF /* FavorCollectionCell.m */,
 				8437161E20C437B500AC5BDF /* FavorCollectionCell.xib */,
+				8407BB7420C8308700AB6C0C /* CommentCollectionCell.h */,
+				8407BB7520C8308700AB6C0C /* CommentCollectionCell.m */,
+				8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,6 +296,7 @@
 				84D1205720ADC85B00AF1894 /* data1.json */,
 				84A0136020B056A800204A8D /* data2.json */,
 				8437161420C3902E00AC5BDF /* data3.json */,
+				8407BB6920C8271400AB6C0C /* data4.json */,
 			);
 			path = IGListKitDemo;
 			sourceTree = "<group>";
@@ -351,7 +387,9 @@
 				84E109A220BEE9A000CB590E /* ImagesCollectionCell.xib in Resources */,
 				84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */,
 				84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */,
+				8407BB6A20C8271400AB6C0C /* data4.json in Resources */,
 				84E109A720BEEA5C00CB590E /* ImageCell.xib in Resources */,
+				8407BB7820C8308700AB6C0C /* CommentCollectionCell.xib in Resources */,
 				84A0136120B056A800204A8D /* data2.json in Resources */,
 				84D1205820ADC85B00AF1894 /* data1.json in Resources */,
 			);
@@ -416,9 +454,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8437162320C4390300AC5BDF /* FavorCollectionCellModel.m in Sources */,
+				84BB8DCC20C6E61C00A07B47 /* CommentSectionController.m in Sources */,
 				84446EF120BC3EF50068BC6D /* JsonTool.m in Sources */,
 				84E109A620BEEA5C00CB590E /* ImageCell.m in Sources */,
 				84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */,
+				8407BB7B20C8334F00AB6C0C /* CommentCollectionCellModel.m in Sources */,
+				8407BB7720C8308700AB6C0C /* CommentCollectionCell.m in Sources */,
 				84D1204620ADC25B00AF1894 /* ViewController.m in Sources */,
 				84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */,
 				84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */,
@@ -427,8 +468,11 @@
 				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
 				84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */,
 				8437161F20C437B500AC5BDF /* FavorCollectionCell.m in Sources */,
+				8407BB6D20C828A800AB6C0C /* Comment.m in Sources */,
+				8407BB7020C82AA700AB6C0C /* ForthViewController.m in Sources */,
 				84E109A120BEE9A000CB590E /* ImagesCollectionCell.m in Sources */,
 				84E1099D20BEE7EF00CB590E /* SecondCollectionViewController.m in Sources */,
+				8407BB7320C82AEE00AB6C0C /* FeedSectionController.m in Sources */,
 				84446EE220BC3BDB0068BC6D /* FeedModel.m in Sources */,
 				84E109AA20BEEC6000CB590E /* ImagesCollectionCellModel.m in Sources */,
 				84A5DEF720B705F2000A33CB /* UserInfoSectionController.m in Sources */,
