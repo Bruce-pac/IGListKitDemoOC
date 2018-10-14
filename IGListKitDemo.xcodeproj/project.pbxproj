@@ -50,6 +50,12 @@
 		84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109AC20BEED4B00CB590E /* UIImage+Extension.m */; };
 		84E109B520BEED4C00CB590E /* NSArray+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109B020BEED4B00CB590E /* NSArray+FP.m */; };
 		84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E109B720BEF00C00CB590E /* ImageSectionController.m */; };
+		84E16F4020E127D1002A3BED /* data5.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E16F3F20E127D1002A3BED /* data5.json */; };
+		84E16F4320E128F7002A3BED /* ADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16F4220E128F7002A3BED /* ADModel.m */; };
+		84E16F4620E129A2002A3BED /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16F4520E129A2002A3BED /* FifthViewController.m */; };
+		84E16F4C20E12EB6002A3BED /* AdSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16F4B20E12EB6002A3BED /* AdSectionController.m */; };
+		84E16F5520E144ED002A3BED /* AdCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16F5320E144ED002A3BED /* AdCollectionCell.m */; };
+		84E16F5620E144ED002A3BED /* AdCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E16F5420E144ED002A3BED /* AdCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +132,16 @@
 		84E109B120BEED4B00CB590E /* NSArray+FP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FP.h"; sourceTree = "<group>"; };
 		84E109B620BEF00C00CB590E /* ImageSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSectionController.h; sourceTree = "<group>"; };
 		84E109B720BEF00C00CB590E /* ImageSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSectionController.m; sourceTree = "<group>"; };
+		84E16F3F20E127D1002A3BED /* data5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data5.json; sourceTree = "<group>"; };
+		84E16F4120E128F7002A3BED /* ADModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADModel.h; sourceTree = "<group>"; };
+		84E16F4220E128F7002A3BED /* ADModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADModel.m; sourceTree = "<group>"; };
+		84E16F4420E129A2002A3BED /* FifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		84E16F4520E129A2002A3BED /* FifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		84E16F4A20E12EB6002A3BED /* AdSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdSectionController.h; sourceTree = "<group>"; };
+		84E16F4B20E12EB6002A3BED /* AdSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdSectionController.m; sourceTree = "<group>"; };
+		84E16F5220E144ED002A3BED /* AdCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdCollectionCell.h; sourceTree = "<group>"; };
+		84E16F5320E144ED002A3BED /* AdCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdCollectionCell.m; sourceTree = "<group>"; };
+		84E16F5420E144ED002A3BED /* AdCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdCollectionCell.xib; sourceTree = "<group>"; };
 		8D2F230AA8CAD5D5BCCA81A0 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E7F92F691F6620D0D1F62EE6 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +182,8 @@
 				84446EE120BC3BDB0068BC6D /* FeedModel.m */,
 				8407BB6B20C828A800AB6C0C /* Comment.h */,
 				8407BB6C20C828A800AB6C0C /* Comment.m */,
+				84E16F4120E128F7002A3BED /* ADModel.h */,
+				84E16F4220E128F7002A3BED /* ADModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +225,8 @@
 				8437161720C4364300AC5BDF /* ThirdViewController.m */,
 				8407BB6E20C82AA700AB6C0C /* ForthViewController.h */,
 				8407BB6F20C82AA700AB6C0C /* ForthViewController.m */,
+				84E16F4420E129A2002A3BED /* FifthViewController.h */,
+				84E16F4520E129A2002A3BED /* FifthViewController.m */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -226,6 +246,8 @@
 				84BB8DCB20C6E61C00A07B47 /* CommentSectionController.m */,
 				8407BB7120C82AEE00AB6C0C /* FeedSectionController.h */,
 				8407BB7220C82AEE00AB6C0C /* FeedSectionController.m */,
+				84E16F4A20E12EB6002A3BED /* AdSectionController.h */,
+				84E16F4B20E12EB6002A3BED /* AdSectionController.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -251,6 +273,9 @@
 				8407BB7420C8308700AB6C0C /* CommentCollectionCell.h */,
 				8407BB7520C8308700AB6C0C /* CommentCollectionCell.m */,
 				8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */,
+				84E16F5220E144ED002A3BED /* AdCollectionCell.h */,
+				84E16F5320E144ED002A3BED /* AdCollectionCell.m */,
+				84E16F5420E144ED002A3BED /* AdCollectionCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +322,7 @@
 				84A0136020B056A800204A8D /* data2.json */,
 				8437161420C3902E00AC5BDF /* data3.json */,
 				8407BB6920C8271400AB6C0C /* data4.json */,
+				84E16F3F20E127D1002A3BED /* data5.json */,
 			);
 			path = IGListKitDemo;
 			sourceTree = "<group>";
@@ -386,10 +412,12 @@
 				8437162020C437B500AC5BDF /* FavorCollectionCell.xib in Resources */,
 				84E109A220BEE9A000CB590E /* ImagesCollectionCell.xib in Resources */,
 				84A5DEFD20B70625000A33CB /* UserInfoCell.xib in Resources */,
+				84E16F4020E127D1002A3BED /* data5.json in Resources */,
 				84D1204920ADC25B00AF1894 /* Main.storyboard in Resources */,
 				8407BB6A20C8271400AB6C0C /* data4.json in Resources */,
 				84E109A720BEEA5C00CB590E /* ImageCell.xib in Resources */,
 				8407BB7820C8308700AB6C0C /* CommentCollectionCell.xib in Resources */,
+				84E16F5620E144ED002A3BED /* AdCollectionCell.xib in Resources */,
 				84A0136120B056A800204A8D /* data2.json in Resources */,
 				84D1205820ADC85B00AF1894 /* data1.json in Resources */,
 			);
@@ -459,6 +487,7 @@
 				84E109A620BEEA5C00CB590E /* ImageCell.m in Sources */,
 				84E109B320BEED4C00CB590E /* UIImage+Extension.m in Sources */,
 				8407BB7B20C8334F00AB6C0C /* CommentCollectionCellModel.m in Sources */,
+				84E16F4620E129A2002A3BED /* FifthViewController.m in Sources */,
 				8407BB7720C8308700AB6C0C /* CommentCollectionCell.m in Sources */,
 				84D1204620ADC25B00AF1894 /* ViewController.m in Sources */,
 				84A5DEFC20B70625000A33CB /* UserInfoCell.m in Sources */,
@@ -467,8 +496,11 @@
 				8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */,
 				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
 				84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */,
+				84E16F5520E144ED002A3BED /* AdCollectionCell.m in Sources */,
+				84E16F4C20E12EB6002A3BED /* AdSectionController.m in Sources */,
 				8437161F20C437B500AC5BDF /* FavorCollectionCell.m in Sources */,
 				8407BB6D20C828A800AB6C0C /* Comment.m in Sources */,
+				84E16F4320E128F7002A3BED /* ADModel.m in Sources */,
 				8407BB7020C82AA700AB6C0C /* ForthViewController.m in Sources */,
 				84E109A120BEE9A000CB590E /* ImagesCollectionCell.m in Sources */,
 				84E1099D20BEE7EF00CB590E /* SecondCollectionViewController.m in Sources */,

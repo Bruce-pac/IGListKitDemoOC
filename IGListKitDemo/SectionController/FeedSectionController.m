@@ -138,6 +138,15 @@
     [self.viewModels addObjectsFromArray:comments];
 }
 
+-(void)didSelectItemAtIndex:(NSInteger)index{
+    if (_hasContent && index == 1) {
+        _expanded = !_expanded;
+        [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.4 initialSpringVelocity:0.6 options:0 animations:^{
+            [self.collectionContext invalidateLayoutForSectionController:self completion:nil];
+        } completion:nil];
+    }
+}
+
 - (CGSize)imageCellSize{
     CGFloat width = (self.collectionContext.containerSize.width - KInsetLeft * 4.f) / 3.f;
     CGFloat height = (_object.images.count - 1) / 3 *(width + KInsetLeft) + width;
