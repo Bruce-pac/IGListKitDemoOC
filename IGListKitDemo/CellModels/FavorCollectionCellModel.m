@@ -34,4 +34,20 @@
         self.favorNum = [NSString stringWithFormat:@"%ld个👍",favor.unsignedIntegerValue];
     }
 }
+
+-(id<NSObject>)diffIdentifier{
+    return self.model.feedId;
+}
+
+-(BOOL)isEqualToDiffableObject:(NSObject<IGListDiffable> *)object{
+    if (object == self) {
+        return YES;
+    } else if (![object isKindOfClass:[FavorCollectionCellModel class]]) {
+        return NO;
+    } else {
+        FavorCollectionCellModel *obj = (FavorCollectionCellModel *)object;
+
+        return (self.isFavor == obj.isFavor) && [self.favorNum isEqualToString:obj.favorNum];
+    }
+}
 @end

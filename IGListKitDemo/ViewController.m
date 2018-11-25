@@ -12,6 +12,7 @@
 #import "ThirdViewController.h"
 #import "ForthViewController.h"
 #import "FifthViewController.h"
+#import "SixthViewController.h"
 @interface ViewController ()
 
 @end
@@ -42,6 +43,8 @@
         case 4:
             [self.navigationController pushViewController:[FifthViewController new] animated:YES];
             break;
+        case 5:
+            [self.navigationController pushViewController:[SixthViewController new] animated:YES];
         default:
             break;
     }

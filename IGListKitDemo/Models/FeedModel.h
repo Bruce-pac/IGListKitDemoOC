@@ -10,6 +10,7 @@
 #import <IGListDiffable.h>
 #import "Comment.h"
 @interface FeedModel : NSObject<IGListDiffable>
+@property (nonatomic,copy) NSNumber *feedId;
 @property (nonatomic,copy) NSString *avatar;
 @property (nonatomic,copy) NSString *userName;
 @property (nonatomic,copy) NSString *content;

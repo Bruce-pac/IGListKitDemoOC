@@ -16,4 +16,18 @@
     }
     return self;
 }
+
+-(id<NSObject>)diffIdentifier{
+    return self.userName;
+}
+
+-(BOOL)isEqualToDiffableObject:(NSObject<IGListDiffable> *)object{
+    if (object == self) {
+        return YES;
+    } else if (![object isKindOfClass:[UserInfoCellModel class]]) {
+        return NO;
+    } else {
+        return [self.userName isEqualToString:((UserInfoCellModel *)object).userName];
+    }
+}
 @end

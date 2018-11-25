@@ -38,4 +38,18 @@
     }
     return self;
 }
+
+-(id<NSObject>)diffIdentifier{
+    return self;
+}
+
+-(BOOL)isEqualToDiffableObject:(NSObject<IGListDiffable> *)object{
+    if (object == self) {
+        return YES;
+    } else if (![object isKindOfClass:[ImagesCollectionCellModel class]]) {
+        return NO;
+    } else {
+        return [self.images isEqualToArray:((ImagesCollectionCellModel *)object).images];
+    }
+}
 @end

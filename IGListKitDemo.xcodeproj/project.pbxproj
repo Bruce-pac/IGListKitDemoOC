@@ -15,6 +15,8 @@
 		8407BB7720C8308700AB6C0C /* CommentCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB7520C8308700AB6C0C /* CommentCollectionCell.m */; };
 		8407BB7820C8308700AB6C0C /* CommentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */; };
 		8407BB7B20C8334F00AB6C0C /* CommentCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407BB7A20C8334F00AB6C0C /* CommentCollectionCellModel.m */; };
+		8415066421A99A5100348E27 /* FeedBindingSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415066321A99A5100348E27 /* FeedBindingSectionController.m */; };
+		8415066721A99E3100348E27 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415066621A99E3100348E27 /* SixthViewController.m */; };
 		8437161520C3902E00AC5BDF /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 8437161420C3902E00AC5BDF /* data3.json */; };
 		8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161720C4364300AC5BDF /* ThirdViewController.m */; };
 		8437161B20C4379B00AC5BDF /* FavorSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437161A20C4379B00AC5BDF /* FavorSectionController.m */; };
@@ -72,6 +74,10 @@
 		8407BB7620C8308700AB6C0C /* CommentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCollectionCell.xib; sourceTree = "<group>"; };
 		8407BB7920C8334F00AB6C0C /* CommentCollectionCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentCollectionCellModel.h; sourceTree = "<group>"; };
 		8407BB7A20C8334F00AB6C0C /* CommentCollectionCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentCollectionCellModel.m; sourceTree = "<group>"; };
+		8415066221A99A5100348E27 /* FeedBindingSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedBindingSectionController.h; sourceTree = "<group>"; };
+		8415066321A99A5100348E27 /* FeedBindingSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedBindingSectionController.m; sourceTree = "<group>"; };
+		8415066521A99E3100348E27 /* SixthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		8415066621A99E3100348E27 /* SixthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
 		8437161420C3902E00AC5BDF /* data3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
 		8437161620C4364300AC5BDF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		8437161720C4364300AC5BDF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
@@ -227,6 +233,8 @@
 				8407BB6F20C82AA700AB6C0C /* ForthViewController.m */,
 				84E16F4420E129A2002A3BED /* FifthViewController.h */,
 				84E16F4520E129A2002A3BED /* FifthViewController.m */,
+				8415066521A99E3100348E27 /* SixthViewController.h */,
+				8415066621A99E3100348E27 /* SixthViewController.m */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -248,6 +256,8 @@
 				8407BB7220C82AEE00AB6C0C /* FeedSectionController.m */,
 				84E16F4A20E12EB6002A3BED /* AdSectionController.h */,
 				84E16F4B20E12EB6002A3BED /* AdSectionController.m */,
+				8415066221A99A5100348E27 /* FeedBindingSectionController.h */,
+				8415066321A99A5100348E27 /* FeedBindingSectionController.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -494,6 +504,7 @@
 				84446EF820BC465C0068BC6D /* ContentSectionController.m in Sources */,
 				8437161B20C4379B00AC5BDF /* FavorSectionController.m in Sources */,
 				8437161820C4364300AC5BDF /* ThirdViewController.m in Sources */,
+				8415066421A99A5100348E27 /* FeedBindingSectionController.m in Sources */,
 				84A5DEF120B7008D000A33CB /* OneCollectionViewController.m in Sources */,
 				84E109B820BEF00C00CB590E /* ImageSectionController.m in Sources */,
 				84E16F5520E144ED002A3BED /* AdCollectionCell.m in Sources */,
@@ -514,6 +525,7 @@
 				84446EFC20BC469F0068BC6D /* ContentCollectionCell.m in Sources */,
 				84A5DEF420B700C3000A33CB /* BaseCollectionViewController.m in Sources */,
 				84D1204320ADC25B00AF1894 /* AppDelegate.m in Sources */,
+				8415066721A99E3100348E27 /* SixthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

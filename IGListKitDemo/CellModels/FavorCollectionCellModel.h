@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <IGListDiffable.h>
 @class FeedModel,FavorCollectionCell;
-@interface FavorCollectionCellModel : NSObject
+@interface FavorCollectionCellModel : NSObject<IGListDiffable>
 @property (nonatomic,assign) BOOL isFavor;
 @property (nonatomic,copy) NSString *favorNum;
 @property (nonatomic,copy) void (^favorBlock)(BOOL isFavor);

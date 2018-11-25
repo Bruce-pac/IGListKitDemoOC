@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <IGListDiffable.h>
 
-@interface UserInfoCellModel : NSObject
+@interface UserInfoCellModel : NSObject<IGListDiffable>
 @property (nonatomic,copy) NSURL *avatar;
 @property (nonatomic,copy) NSString *userName;
 -(instancetype)initWithUserName:(NSString *)userName;

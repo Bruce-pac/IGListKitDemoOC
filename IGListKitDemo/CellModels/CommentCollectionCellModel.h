@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <IGListDiffable.h>
 @class Comment;
-@interface CommentCollectionCellModel : NSObject
+@interface CommentCollectionCellModel : NSObject<IGListDiffable>
 @property (nonatomic,copy) NSString *person;
 @property (nonatomic,copy) NSString *comment;
 -(instancetype)initWithModel:(Comment *)comment;

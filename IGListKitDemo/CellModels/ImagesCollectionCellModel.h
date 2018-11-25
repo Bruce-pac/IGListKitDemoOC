@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIImage.h>
+#import <IGListDiffable.h>
 
-@interface ImagesCollectionCellModel : NSObject
+@interface ImagesCollectionCellModel : NSObject<IGListDiffable>
 @property (nonatomic,copy) NSArray<UIImage *> *images;
 -(instancetype)initWithImages:(NSArray<NSString *> *)urls;
 @end

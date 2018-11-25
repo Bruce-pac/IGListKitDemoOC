@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSArray *json = [JsonTool arrayWithJson:@"data5"];
-  self.objects = [json mutableMap:^id(NSDictionary *element) {
+    self.objects = [json mutableMap:^id(NSDictionary *element) {
         NSInteger type = [element[@"type"] integerValue];
         if (type == 1) {
             return [FeedModel mj_objectWithKeyValues:element[@"data"]];

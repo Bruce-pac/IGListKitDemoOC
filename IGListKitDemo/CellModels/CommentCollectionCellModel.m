@@ -18,4 +18,19 @@
     }
     return self;
 }
+
+-(id<NSObject>)diffIdentifier{
+    return @(self.person.hash ^ self.comment.hash);
+}
+
+-(BOOL)isEqualToDiffableObject:(NSObject<IGListDiffable> *)object{
+    if (object == self) {
+        return YES;
+    } else if (![object isKindOfClass:[CommentCollectionCellModel class]]) {
+        return NO;
+    } else {
+        CommentCollectionCellModel *obj = (CommentCollectionCellModel *)object;
+        return [self.person isEqualToString:obj.person] && [self.comment isEqualToString:obj.comment];
+    }
+}
 @end
